@@ -24,7 +24,7 @@ var Translations = {
 
     "PreparedForText": "Prepared for",
 
-    "CopyrightText": "Copyright 2017 Client Name",
+    "CopyrightText": "Copyright 2017 Pitney Bowes",
     "PoweredByFooterText": "Powered by",
     "HelpFooterText": "Help",
     "PrivacyPolicyFooterText": "Privacy Policy",
@@ -79,7 +79,7 @@ var Translations = {
      * "url" to go to when the promo is clicked
      * "desktopImage" the relative path to the promo image used on desktop breakpoints. This should be portrait.
      * "mobileImage" the relative path to the promo image used on mobile breakpoints. This should be landscape.
-     */
+     */    
     "PromoSettings": {
         "promo1": {
             "trackingName": "promo1",
@@ -95,8 +95,8 @@ var Translations = {
             "desktopImage": "./images/promo_portrait.png",
             "mobileImage": "./images/promo_landscape.png"
         }
-    },
-
+    },    
+    
     /**
      * Chapter settings used to build the timeline and StateMap, which maps video states to friendly names.
      *
@@ -111,55 +111,46 @@ var Translations = {
             "label": "Welcome",
             "states": [
                 {
-                    "cardId": "START",
-                    "width": 10
+                    "cardId": "b4a86715",
+                    "width": 20
                 }
             ]
         },
         {
-            "label": "Your Details",
+            "label": "Take Details",
             "states": [
                 {
-                    "cardId": "Details",
-                    "width": 10
-                },
+                    "cardId": "5a78a1b5",
+                    "width": 20
+                }
             ]
         },
-		{
-            "label": "Selection",
+        {
+            "label": "Your Constituency",
             "states": [
                 {
-                    "cardId": "Selection",
-                    "width": 10
-                },
+                    "cardId": "54fea00f",
+                    "width": 20
+                }
             ]
         },
         {
             "label": "Achievements",
             "states": [
                 {
-                    "cardId": "Achievements",
-                    "width": 10
-                },
+                    "cardId": "87c8489a",
+                    "width": 20
+                }
             ]
         },
         {
-            "label": "Survey",
+            "label": "Feedback & Closing",
             "states": [
                 {
-                    "cardId": "Survey",
-                    "width": 10
-                },
-            ]
-        },		
-        {
-            "label": "Thank You",
-            "states": [
-                {
-                    "cardId": "7b0123a5",
-                    "width": 10
+                    "cardId": "fbcb7aad",
+                    "width": 20
                 }
             ]
-        }
+        },
     ]
 }
